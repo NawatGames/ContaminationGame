@@ -67,6 +67,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7180625908587809033, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7619445110882851609, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
       propertyPath: m_Color.b
       value: 0
@@ -81,7 +85,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8021865037048014684, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
       propertyPath: m_Name
-      value: CityTile
+      value: PFB_CityTile
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
