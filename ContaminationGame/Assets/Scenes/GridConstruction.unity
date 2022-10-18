@@ -442,7 +442,6 @@ MonoBehaviour:
   prefab_plains: {fileID: 3649052978690231458, guid: 2ee241b4c5a757c49ad07c0986761560, type: 3}
   prefab_forest: {fileID: 5762814032421086235, guid: 06832389861860d478f01c993d20d328, type: 3}
   prefab_rivers: {fileID: 1879757368588090448, guid: a3be8b8b3a3cc4344bf501fd17b79006, type: 3}
-  prefab_mountains: {fileID: 6341987350214747813, guid: d664dd07f097e154cb0ebca4c9fdde48, type: 3}
   prefab_cities: {fileID: 1888481402662977317, guid: 8ea10fb24cd87dc4b8027e11712e4598, type: 3}
   _cam: {fileID: 1477453235}
 --- !u!4 &851709061
@@ -970,7 +969,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 70.60745, y: 124.52656}
+  m_AnchoredPosition: {x: 70.608, y: 124.53}
   m_SizeDelta: {x: 141.2153, y: 249.0528}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2012714491

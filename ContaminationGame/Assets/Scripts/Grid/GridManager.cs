@@ -11,8 +11,7 @@ public class GridManager : MonoBehaviour
     [SerializeField] private float tilesize = 1;
     [SerializeField] private GameObject prefab_plains;
     [SerializeField] private GameObject prefab_forest;
-    [SerializeField] private GameObject prefab_rivers;
-    [SerializeField] private GameObject prefab_mountains;
+    [SerializeField] private GameObject prefab_rivers; 
     [SerializeField] private GameObject prefab_cities;
 
     private Dictionary<int, GameObject> tileset;
@@ -39,7 +38,6 @@ public class GridManager : MonoBehaviour
         tileset.Add(1, prefab_forest);
         tileset.Add(2, prefab_rivers);
         tileset.Add(3, prefab_cities);
-        tileset.Add(4, prefab_mountains);
     }
 
 
@@ -52,7 +50,7 @@ public class GridManager : MonoBehaviour
             for (int col = 0; col < cols; col++)
             {
                 // GameObject tile = (GameObject)Instantiate(tileset[Random.Range(0, 5)], transform);
-                GameObject tile = (GameObject)Instantiate(tileset[Random.Range(0, 5)],  new Vector2(col * tilesize, row * tilesize), Quaternion.identity);
+                GameObject tile = (GameObject)Instantiate(tileset[Random.Range(0, 4)],  new Vector2(col * tilesize, row * tilesize), Quaternion.identity);
 
                 // float posX = col * tilesize;
                 // float posY = row * tilesize;

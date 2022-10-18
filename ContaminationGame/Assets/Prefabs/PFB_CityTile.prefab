@@ -87,5 +87,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: PFB_CityTile
       objectReference: {fileID: 0}
+    - target: {fileID: 8021865037048014684, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: m_TagString
+      value: City
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
