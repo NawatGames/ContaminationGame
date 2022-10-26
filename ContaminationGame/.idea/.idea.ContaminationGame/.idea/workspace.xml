@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c56984d7-92ea-4887-ab1b-9933affbd500" name="Changes" comment="" />
+    <list default="true" id="c56984d7-92ea-4887-ab1b-9933affbd500" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="rider.run.widget.enabled.cache" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -75,6 +78,7 @@
       <workItem from="1664832250980" duration="5280000" />
       <workItem from="1666050944302" duration="1295000" />
       <workItem from="1666224931696" duration="598000" />
+      <workItem from="1666815888852" duration="1352000" />
     </task>
     <servers />
   </component>

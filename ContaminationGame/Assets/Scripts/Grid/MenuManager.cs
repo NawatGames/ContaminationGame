@@ -11,6 +11,7 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private GameObject _selectedTileNetFeeObject;
     [SerializeField] private GameObject _selectedTileCureFeeObject;
 
+ 
     private void Awake()
     {
         Instance = this;
@@ -36,4 +37,5 @@ public class MenuManager : MonoBehaviour
         _selectedTileNetFeeObject.SetActive(true);
         _selectedTileCureFeeObject.SetActive(true);
     }
+   
 }
