@@ -8,6 +8,10 @@ TagManager:
   - Florest
   - Village
   - River
+  - PlayerNucleotides
+  - PlayerGrossFee
+  - PlayerNetFee
+  - PlayerCure
   layers:
   - Default
   - TransparentFX
