@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class AreaStateManager : MonoBehaviour
 {
-    private AreaBaseState currentState;
-    private HealthyArea _healthyArea = new HealthyArea();
-    private ContaminedArea _contaminedArea = new ContaminedArea();
-    private DominatedArea _dominatedArea = new DominatedArea();
-    private ViralCradleArea _viralCradleArea = new ViralCradleArea();
+    public AreaBaseState currentState;
+    public HealthyArea _healthyArea = new HealthyArea();
+    public ContaminedArea _contaminedArea = new ContaminedArea();
+    public DominatedArea _dominatedArea = new DominatedArea();
+    public ViralCradleArea _viralCradleArea = new ViralCradleArea();
     
     void Start()
     {
@@ -19,6 +19,12 @@ public class AreaStateManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        currentState.UpdateState(this);
+    }
+
+    public void SwitchState(AreaBaseState state)
+    {
+        currentState = state;
+        state.EnterState(this);
     }
 }
