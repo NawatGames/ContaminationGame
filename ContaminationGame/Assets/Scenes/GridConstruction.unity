@@ -570,6 +570,7 @@ GameObject:
   - component: {fileID: 881137990}
   - component: {fileID: 881137989}
   - component: {fileID: 881137988}
+  - component: {fileID: 881137992}
   - component: {fileID: 881137987}
   - component: {fileID: 881137991}
   m_Layer: 0
@@ -617,6 +618,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 094010c66676810489c8954f43e42db7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerInput: {fileID: 881137992}
+  scale: 1.1
+  map:
+    min: {x: 0, y: 0}
+    max: {x: 6, y: 6}
+  playerPosition: {x: 0, y: 0, z: 0}
 --- !u!212 &881137989
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -703,6 +710,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &881137992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881137986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 984a6c87348ed7742a92a865e665ae54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  directionChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1024863767
 GameObject:
   m_ObjectHideFlags: 0
