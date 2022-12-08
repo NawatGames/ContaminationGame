@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 3452770563175969393}
   - component: {fileID: 7619445110882851609}
   - component: {fileID: 718024101394153640}
+  - component: {fileID: 3870139550441545450}
   - component: {fileID: -2658911758533267233}
   - component: {fileID: -7160150133252182418}
   - component: {fileID: 8554563789159405298}
@@ -186,7 +187,49 @@ MonoBehaviour:
   netFee: 0
   cureFee: 0
   stateControl: 0
-  _highlight: {fileID: 7180625908587809033}
+--- !u!114 &3870139550441545450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8021865037048014684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46f4c38665a3cb249b38423fdcca0819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _terrainData: {fileID: 718024101394153640}
+  selectedEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7180625908587809033}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  deselectedEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7180625908587809033}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!61 &-2658911758533267233
 BoxCollider2D:
   m_ObjectHideFlags: 0

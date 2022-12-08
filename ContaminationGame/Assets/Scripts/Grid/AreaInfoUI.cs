@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MenuManager : MonoBehaviour
+public class AreaInfoUI : MonoBehaviour
 {
-    public static MenuManager Instance;
+    public static AreaInfoUI Instance;
     [SerializeField] private GameObject _selectedTileNucleotidesObject;
     [SerializeField] private GameObject _selectedTileGrossFeeObject;
     [SerializeField] private GameObject _selectedTileNetFeeObject;
