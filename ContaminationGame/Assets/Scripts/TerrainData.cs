@@ -6,15 +6,28 @@ using UnityEngine.Events;
 
 public class TerrainData : MonoBehaviour
 {
-    [SerializeField] public int nucleotides;
-    [SerializeField] public int grossFee;
-    [SerializeField] public int netFee;
-    [SerializeField] public int cureFee;
+    [SerializeField] private int nucleotides;
+    [SerializeField] private int netFee;
     [SerializeField] private int stateControl = 0;
-    
-    private void Start()
+    public UnityEvent TerrainDataChangedEvent;
+
+    public int Nucleotides
     {
-        netFee = grossFee - cureFee;
+        get => nucleotides;
+        set
+        {
+            nucleotides = value;
+            TerrainDataChangedEvent.Invoke();
+        }
     }
-    
+
+    public int NetFee
+    {
+        get => netFee;
+        set
+        {
+            netFee = value;
+            TerrainDataChangedEvent.Invoke();
+        }
+    }
 }

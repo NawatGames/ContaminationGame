@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 7619445110882851609}
   - component: {fileID: 718024101394153640}
   - component: {fileID: 3870139550441545450}
+  - component: {fileID: 3874195493346023387}
   - component: {fileID: -2658911758533267233}
   - component: {fileID: -7160150133252182418}
   - component: {fileID: 8554563789159405298}
@@ -183,10 +184,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nucleotides: 0
-  grossFee: 0
   netFee: 0
-  cureFee: 0
   stateControl: 0
+  TerrainDataChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &3870139550441545450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,6 +232,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3874195493346023387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8021865037048014684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c116ecb8d54564a8cd5f40f4071871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainSelection: {fileID: 3870139550441545450}
+  terrainData: {fileID: 718024101394153640}
 --- !u!61 &-2658911758533267233
 BoxCollider2D:
   m_ObjectHideFlags: 0
