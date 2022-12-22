@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class HealthyArea : AreaBaseState
 {
-    public override void EnterState(AreaStateManager area)
+    public override void EnterState(AreaStateControler area)
     {
         Debug.Log("Estado da area: Saudavel");
     }
 
-    public override void UpdateState(AreaStateManager area)
+    public override void UpdateState(AreaStateControler area)
     {
         if (Input.GetKeyDown(KeyCode.B)){
             Debug.Log(area.currentState);

@@ -8,7 +8,6 @@ public class TerrainData : MonoBehaviour
 {
     [SerializeField] private int nucleotides;
     [SerializeField] private int netFee;
-    [SerializeField] private int stateControl = 0;
     public UnityEvent TerrainDataChangedEvent;
 
     public int Nucleotides

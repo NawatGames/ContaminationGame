@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AreaStateManager : MonoBehaviour
+public class AreaStateControler : MonoBehaviour
 {
     public AreaBaseState currentState;
     public HealthyArea _healthyArea = new HealthyArea();

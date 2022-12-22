@@ -6,7 +6,6 @@ using UnityEngine.Events;
 
 public class TerrainSelection : MonoBehaviour
 {
-    [SerializeField] private TerrainData _terrainData;
     public UnityEvent selectedEvent;
     public UnityEvent deselectedEvent;
 

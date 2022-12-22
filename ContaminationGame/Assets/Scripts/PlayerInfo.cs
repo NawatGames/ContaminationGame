@@ -9,7 +9,7 @@ public class PlayerInfo : MonoBehaviour
     [SerializeField] public int netFee;
     [SerializeField] private List<TerrainData> _terrainDatas = new List<TerrainData>();
     public UnityEvent PlayerInfoChangedEvent;
-
+    
     
 
     private void OnEnable()
@@ -34,6 +34,8 @@ public class PlayerInfo : MonoBehaviour
         terrainData.TerrainDataChangedEvent.AddListener(Refresh);
     }
 
+    [ContextMenu("Refresh")]
+    
     void Refresh()
     {
         nucleotides = 0;
