@@ -4,21 +4,17 @@ using UnityEngine.PlayerLoop;
 
 namespace StateMachine2
 {
-    public enum AreaState
-    {
-        Healthy, Contaminated, Dominated, ViralCradle
-    }
-    public class AreaBaseState : MonoBehaviour
+    public class AreaState : MonoBehaviour
     {
         public UnityEvent EnterStateEvent;
         public UnityEvent UpdateStateEvent;
-        [SerializeField] private AreaState state;
-        public void EnterState(AreaStateController area)
+        public AreaState nextState;
+        public void EnterState(AreaStateMachine area)
         {
             EnterStateEvent.Invoke();
         }
 
-        public void UpdateState(AreaStateController area)
+        public void UpdateState(AreaStateMachine area)
         {
             UpdateStateEvent.Invoke();
         }

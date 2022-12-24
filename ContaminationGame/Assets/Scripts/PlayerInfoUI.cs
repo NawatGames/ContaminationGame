@@ -26,8 +26,7 @@ public class PlayerInfoUI : MonoBehaviour
 
     public void RefreshPlayerInfoUI()
     {
-        nucleotidesText.text = $"{playerInfo.nucleotides}";
-        netFeeText.text = $"{playerInfo.netFee}";
+        nucleotidesText.text = $"{playerInfo.PlayerNucleotides}";
     }
    
 }

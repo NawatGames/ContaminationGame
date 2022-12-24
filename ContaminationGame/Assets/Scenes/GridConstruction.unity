@@ -123,6 +123,52 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &100416675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 100416677}
+  - component: {fileID: 100416676}
+  m_Layer: 0
+  m_Name: EvolutionRequester
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &100416676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100416675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc7dbca0300437c9eb4a6582fb5dab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  evolutionManager: {fileID: 1370114538}
+  playerInput: {fileID: 881137992}
+  terrainSelectionManager: {fileID: 1366579876}
+--- !u!4 &100416677
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100416675}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.1660228, y: 0.00395477, z: -191.7821}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &130286997
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,7 +336,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 515543069}
-  - component: {fileID: 515543068}
   m_Layer: 0
   m_Name: Menu Manager
   m_TagString: Untagged
@@ -298,22 +343,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &515543068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515543067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1e11d70003cb354b965540a66070bf2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _selectedTileNucleotidesObject: {fileID: 2141746686}
-  _selectedTileGrossFeeObject: {fileID: 0}
-  _selectedTileNetFeeObject: {fileID: 130286997}
-  _selectedTileCureFeeObject: {fileID: 0}
 --- !u!4 &515543069
 Transform:
   m_ObjectHideFlags: 0
@@ -799,6 +828,9 @@ MonoBehaviour:
   directionChangedEvent:
     m_PersistentCalls:
       m_Calls: []
+  evolutionRequestEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1024863767
 GameObject:
   m_ObjectHideFlags: 0
@@ -1175,6 +1207,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1370114537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1370114539}
+  - component: {fileID: 1370114538}
+  m_Layer: 0
+  m_Name: EvolutionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1370114538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370114537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d124824195554b62b4038b47b8bd9855, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInfo: {fileID: 1457045031}
+  terrainSelectionManager: {fileID: 1366579876}
+  SuccessfullEvolutionEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  FailedEvolutionEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1370114539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370114537}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.1660228, y: 0.00395477, z: -191.7821}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1433186265
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,9 +1366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c60ccf5ac20c245a70058f78dba415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nucleotides: 0
-  netFee: 0
-  _terrainDatas: []
+  playerNucleotides: 100
   PlayerInfoChangedEvent:
     m_PersistentCalls:
       m_Calls: []

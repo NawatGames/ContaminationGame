@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class PlayerInput : MonoBehaviour
 {
     public UnityEvent <Vector3> directionChangedEvent;
+    public UnityEvent evolutionRequestEvent;
 
     void Update()
     {
@@ -33,6 +34,11 @@ public class PlayerInput : MonoBehaviour
         if (direction != Vector3.zero)
         {
             directionChangedEvent.Invoke(direction);
+        }
+
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            evolutionRequestEvent.Invoke();
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using StateMachine2;
+﻿using System;
+using EvolutionSystem;
+using StateMachine2;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -11,22 +13,33 @@ namespace EvolutionSystem
         public UnityEvent SuccessfullEvolutionEvent;
         public UnityEvent FailedEvolutionEvent;
 
+
         public void RequestEvolution(TerrainData terrainData)
         {
-            var value = terrainData.Nucleotides;
-            if (playerInfo.nucleotides >= value)
+            if (terrainData is null)
             {
-                var areaStateController = terrainData.GetComponentInChildren<AreaStateController>();
-                if (areaStateController.CurrentState == areaStateController.FinalState)
+                FailedEvolutionEvent.Invoke();
+                return;
+            }
+            var value = terrainData.Nucleotides;
+            if (playerInfo.PlayerNucleotides >= value)
+            {
+                var areaStateMachine = terrainData.GetComponentInChildren<AreaStateMachine>();
+                if (areaStateMachine.CurrentState.nextState is null)
                 {
-                    
+                    FailedEvolutionEvent.Invoke();
+                }
+                else
+                {
+                    areaStateMachine.SwitchToNextState();
+                    playerInfo.RemovePlayerNucleotides(value);
+                    SuccessfullEvolutionEvent.Invoke();
                 }
             }
             else
             {
                 FailedEvolutionEvent.Invoke();
             }
-            
         }
     }
 }

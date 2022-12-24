@@ -5,47 +5,38 @@ using UnityEngine.Events;
 
 public class PlayerInfo : MonoBehaviour
 {
-    [SerializeField] public int nucleotides;
-    [SerializeField] public int netFee;
-    [SerializeField] private List<TerrainData> _terrainDatas = new List<TerrainData>();
+    [SerializeField] private int playerNucleotides;
+    
     public UnityEvent PlayerInfoChangedEvent;
+   
+    public int PlayerNucleotides => playerNucleotides;
     
+    public void SetPlayerNucleotides(int value)
+    {
+        playerNucleotides = value;
+        Refresh();
+    }
     
-
-    private void OnEnable()
+    public void AddPlayerNucleotides(int value)
     {
-        foreach (var terrainData in _terrainDatas)
-        {
-            terrainData.TerrainDataChangedEvent.AddListener(Refresh);
-        }
+        playerNucleotides += value;
+        Refresh();
     }
-
-    private void OnDisable()
+    public void RemovePlayerNucleotides(int value)
     {
-        foreach (var terrainData in _terrainDatas)
-        {
-            terrainData.TerrainDataChangedEvent.RemoveListener(Refresh);
-        }
+        playerNucleotides -= value;
+        Refresh();
     }
-
-    public void AddTerrain(TerrainData terrainData)
-    {
-        _terrainDatas.Add(terrainData);
-        terrainData.TerrainDataChangedEvent.AddListener(Refresh);
-    }
-
+    
     [ContextMenu("Refresh")]
     
     void Refresh()
     {
-        nucleotides = 0;
-        netFee = 0;
-        foreach (var terrainData in _terrainDatas)
-        {
-            nucleotides += terrainData.Nucleotides;
-            netFee += terrainData.NetFee;
-        }
-
         PlayerInfoChangedEvent.Invoke();
+    }
+
+    private void Start()
+    {
+        Refresh();
     }
 }

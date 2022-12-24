@@ -49,7 +49,7 @@ MonoBehaviour:
   UpdateStateEvent:
     m_PersistentCalls:
       m_Calls: []
-  state: 0
+  nextState: {fileID: 3273237330642885094}
 --- !u!1 &3283229628893730470
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,7 +133,7 @@ MonoBehaviour:
   UpdateStateEvent:
     m_PersistentCalls:
       m_Calls: []
-  state: 1
+  nextState: {fileID: 369795326243810225}
 --- !u!1 &7045836946660853075
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,7 +183,7 @@ MonoBehaviour:
   UpdateStateEvent:
     m_PersistentCalls:
       m_Calls: []
-  state: 3
+  nextState: {fileID: 0}
 --- !u!1 &7180625908587809033
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,7 +315,7 @@ MonoBehaviour:
   UpdateStateEvent:
     m_PersistentCalls:
       m_Calls: []
-  state: 2
+  nextState: {fileID: 2196118106296097928}
 --- !u!1 &8021865037048014684
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,4 +539,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <CurrentState>k__BackingField: {fileID: 5614240496179308967}
-  <FinalState>k__BackingField: {fileID: 2196118106296097928}

@@ -2,11 +2,9 @@
 
 namespace StateMachine2
 {
-    public class AreaStateController : MonoBehaviour
+    public class AreaStateMachine : MonoBehaviour
     {
-        [field: SerializeField] public AreaBaseState CurrentState { get; private set; }
-        [field: SerializeField] public AreaBaseState FinalState { get; }
-
+        [field: SerializeField] public AreaState CurrentState { get; private set; }
         void Start()
         {
             CurrentState.EnterState(this);
@@ -18,10 +16,15 @@ namespace StateMachine2
             CurrentState.UpdateState(this);
         }
 
-        public void SwitchState(AreaBaseState state)
+        public void SwitchState(AreaState state)
         {
             CurrentState = state;
             state.EnterState(this);
+        }
+
+        public void SwitchToNextState()
+        {
+            SwitchState(CurrentState.nextState); 
         }
     }
 }
