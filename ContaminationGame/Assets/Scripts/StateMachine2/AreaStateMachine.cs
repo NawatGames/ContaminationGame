@@ -18,6 +18,10 @@ namespace StateMachine2
 
         public void SwitchState(AreaState state)
         {
+            if (CurrentState != null)
+            {
+                CurrentState.LeaveState(this);
+            }
             CurrentState = state;
             state.EnterState(this);
         }

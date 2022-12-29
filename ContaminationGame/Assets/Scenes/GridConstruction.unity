@@ -609,7 +609,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nucleotidesText: {fileID: 573287084}
-  netFeeText: {fileID: 1722528110}
   playerInfo: {fileID: 1457045031}
 --- !u!1 &851709059
 GameObject:

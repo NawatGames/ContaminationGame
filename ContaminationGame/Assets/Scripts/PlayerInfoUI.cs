@@ -5,8 +5,7 @@ using UnityEngine.UI;
 public class PlayerInfoUI : MonoBehaviour
 {
     
-    [SerializeField] private Text nucleotidesText;
-    [SerializeField] private Text netFeeText;
+    [SerializeField] private Text nucleotidesText; 
     [SerializeField] private PlayerInfo playerInfo;
 
     private void OnEnable()
