@@ -1365,7 +1365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c60ccf5ac20c245a70058f78dba415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerNucleotides: 100
+  playerNucleotides: 1000000
   PlayerInfoChangedEvent:
     m_PersistentCalls:
       m_Calls: []
