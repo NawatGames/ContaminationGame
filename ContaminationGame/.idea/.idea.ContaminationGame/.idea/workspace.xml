@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56984d7-92ea-4887-ab1b-9933affbd500" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine2/StateAnimatorHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine2/StateAnimatorHandler.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PFB_BaseTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PFB_BaseTile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PFB_CityTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PFB_CityTile.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PFB_FlorestTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PFB_FlorestTile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PFB_RiverTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PFB_RiverTile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PFB_VillageTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PFB_VillageTile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EvolutionSystem/EvolutionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EvolutionSystem/EvolutionManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerInfoUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerInfoUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StateMachine2/AreaState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine2/AreaState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StateMachine2/AreaStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine2/AreaStateMachine.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +92,8 @@
       <workItem from="1671491378596" duration="9962000" />
       <workItem from="1671741199959" duration="5590000" />
       <workItem from="1671855208515" duration="6085000" />
-      <workItem from="1672267077609" duration="3262000" />
+      <workItem from="1672267077609" duration="3845000" />
+      <workItem from="1672353398663" duration="651000" />
     </task>
     <servers />
   </component>

@@ -31,6 +31,10 @@ PrefabInstance:
       propertyPath: nucleotides
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 973406312587697456, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3452770563175969393, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -75,6 +79,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3542206342920527243, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3542206342920527243, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1473433cd36a37a4cba084d740810714, type: 2}
+    - target: {fileID: 4648656036828049639, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5009796160445035389, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4ac93668fecd26a42b76b9b097f5ab24, type: 2}
+    - target: {fileID: 6665599294689361895, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3228076845822338997, guid: ca5d0ffc7a0173b4ca507e460814be12, type: 3}
+    - target: {fileID: 6926567919312627297, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166518777188984280, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7d922d2453490394db19061815d9e336, type: 2}
+    - target: {fileID: 7616512710865325486, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7619445110882851609, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -99,5 +135,9 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Florest
       objectReference: {fileID: 0}
+    - target: {fileID: 8793769753541882453, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8cf15f39f2f44f044b94c86dbec53e97, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
