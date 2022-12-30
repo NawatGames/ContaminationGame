@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56984d7-92ea-4887-ab1b-9933affbd500" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/NucleotideTileStorage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/NucleotideTileStorage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/NucleotidesCostHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/NucleotidesCostHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/NucleotidesGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/NucleotidesGenerator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/NucleotidesGeneratorHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/NucleotidesGeneratorHandler.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PFB_FlorestTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PFB_FlorestTile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PFB_BaseTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PFB_BaseTile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid/SelectedTerrainDataUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grid/SelectedTerrainDataUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TerrainData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TerrainData.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +104,7 @@
       <workItem from="1671741199959" duration="5590000" />
       <workItem from="1671855208515" duration="6085000" />
       <workItem from="1672267077609" duration="3845000" />
-      <workItem from="1672353398663" duration="651000" />
+      <workItem from="1672353398663" duration="6530000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using NucleotidesProduction;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class SelectedTerrainDataUI : MonoBehaviour
@@ -6,7 +7,7 @@ public class SelectedTerrainDataUI : MonoBehaviour
     [SerializeField] private Text nucleotidesText;
     [SerializeField] private Text netFeeText;
     [SerializeField] private TerrainSelectionManager terrainSelectionManager;
-
+    
     private void OnEnable()
     {
         terrainSelectionManager.SelectionChangedEvent.AddListener(RefreshPlayerInfoUI);
@@ -27,7 +28,8 @@ public class SelectedTerrainDataUI : MonoBehaviour
         else
         {
             nucleotidesText.text = $"{terrainSelectionManager.TerrainData.Nucleotides}";
-            netFeeText.text = $"{terrainSelectionManager.TerrainData.NetFee}";
+            var netFee = terrainSelectionManager.TerrainData.GetComponentInChildren<NucleotidesGenerator>().NetFee;
+            netFeeText.text = $"{netFee}";
         }
     }
 }
