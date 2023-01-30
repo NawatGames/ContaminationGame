@@ -32,7 +32,7 @@ namespace NucleotidesProduction
 
         public void RemoveFromCurrentStorage(int value)
         {
-            currentStorage -= Mathf.Clamp(currentStorage - value, 0, maxStorage);
+            currentStorage = Mathf.Clamp(currentStorage - value, 0, maxStorage);
             currentStorageChangedEvent.Invoke();
         }
     }

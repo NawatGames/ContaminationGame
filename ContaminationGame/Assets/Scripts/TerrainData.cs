@@ -18,7 +18,6 @@ public class TerrainData : MonoBehaviour
             TerrainDataChangedEvent.Invoke();
         }
     }
-    
 }
 
 
