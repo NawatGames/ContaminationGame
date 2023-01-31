@@ -4,6 +4,7 @@
     <list default="true" id="c56984d7-92ea-4887-ab1b-9933affbd500" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PFB_BaseTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PFB_BaseTile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressBarHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProgressBarHandler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +112,8 @@
       <workItem from="1672353398663" duration="6530000" />
       <workItem from="1675108864198" duration="32000" />
       <workItem from="1675108905071" duration="5032000" />
-      <workItem from="1675137971360" duration="3831000" />
+      <workItem from="1675137971360" duration="3878000" />
+      <workItem from="1675194226505" duration="2095000" />
     </task>
     <servers />
   </component>
