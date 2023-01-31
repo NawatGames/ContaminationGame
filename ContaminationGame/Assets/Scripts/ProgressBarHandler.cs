@@ -13,7 +13,7 @@ public class ProgressBarHandler : MonoBehaviour
     [SerializeField] private AreaStateMachine areaStateMachine;
     [SerializeField] private AreaState initialAreaState;
     [SerializeField] private GameObject progressBarFill;
-
+    
     private void OnEnable()
     {
         nucleotideTileStorage.currentStorageChangedEvent.AddListener(FillProgressBar);
