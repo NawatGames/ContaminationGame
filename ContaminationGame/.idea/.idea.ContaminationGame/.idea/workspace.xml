@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c56984d7-92ea-4887-ab1b-9933affbd500" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ProgressBar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ProgressBar.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ProgressBarHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PFB_BaseTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PFB_BaseTile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/NucleotideTileStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/NucleotideTileStorage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressBarHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressBarHandler.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ProgressBarHandler.cs.meta" afterDir="false" />
-    </list>
+    <list default="true" id="c56984d7-92ea-4887-ab1b-9933affbd500" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
