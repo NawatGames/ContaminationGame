@@ -19,21 +19,33 @@ namespace NucleotidesProduction
             get => currentStorage;
             set
             {
+                var lastFrameStorage = currentStorage;
                 currentStorage = Mathf.Clamp(value, 0, maxStorage);
-                currentStorageChangedEvent.Invoke();
+                if (currentStorage != lastFrameStorage)
+                {
+                    currentStorageChangedEvent.Invoke();
+                }
             }
         }
 
         public void AddToCurrentStorage(int value)
         {
+            var lastFrameStorage = currentStorage;
             currentStorage = Mathf.Clamp(currentStorage + value, 0, maxStorage);
-            currentStorageChangedEvent.Invoke();
+            if (currentStorage != lastFrameStorage)
+            {
+                currentStorageChangedEvent.Invoke();
+            }
         }
 
         public void RemoveFromCurrentStorage(int value)
         {
+            var lastFrameStorage = currentStorage;
             currentStorage = Mathf.Clamp(currentStorage - value, 0, maxStorage);
-            currentStorageChangedEvent.Invoke();
+            if (currentStorage != lastFrameStorage)
+            {
+                currentStorageChangedEvent.Invoke();
+            }
         }
     }
 }
