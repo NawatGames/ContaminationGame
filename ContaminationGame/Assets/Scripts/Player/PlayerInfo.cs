@@ -10,7 +10,13 @@ public class PlayerInfo : MonoBehaviour
     public UnityEvent PlayerInfoChangedEvent;
    
     public int PlayerNucleotides => playerNucleotides;
-    
+    public static PlayerInfo instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     public void SetPlayerNucleotides(int value)
     {
         playerNucleotides = value;

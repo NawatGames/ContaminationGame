@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c56984d7-92ea-4887-ab1b-9933affbd500" name="Changes" comment="" />
+    <list default="true" id="c56984d7-92ea-4887-ab1b-9933affbd500" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CollectNucleotides.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CollectNucleotides.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TerrainCost.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TerrainCost.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PFB_BaseTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PFB_BaseTile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EvolutionSystem/EvolutionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EvolutionSystem/EvolutionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid/SelectedTerrainDataUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grid/SelectedTerrainDataUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/NucleotidesCostHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/NucleotidesCostHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/TileNucleotidesTransferer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/TileNucleotidesTransferer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/VerifierStorageCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/VerifierStorageCondition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StateMachine2/AreaStateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StateMachine2/AreaStateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TerrainData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TerrainData.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +33,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/c4/2d0d2e51/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/f5/e6ddade2/KeyCode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/TileNucleotidesTransferer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">

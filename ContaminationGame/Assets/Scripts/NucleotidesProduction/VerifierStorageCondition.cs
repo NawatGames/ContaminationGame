@@ -17,6 +17,12 @@ namespace NucleotidesProduction
         [SerializeField] private AreaState initialAreaState;
         [SerializeField] private bool isActive;
         public UnityEvent TransfererConditionChangedEvent;
+        public bool IsActive => isActive;
+
+        private void Start()
+        {
+            OnCurrentStorageChanged();
+        }
 
         private void OnEnable()
         {
@@ -30,7 +36,7 @@ namespace NucleotidesProduction
         private void OnCurrentStorageChanged()
         {
             var wasActive = isActive;
-            isActive = nucleotidesTileStorage.CurrentStorage == nucleotidesTileStorage.MaxStorage && areaStateMachine.CurrentState != initialAreaState;
+            isActive = nucleotidesTileStorage.CurrentStorage == nucleotidesTileStorage.MaxStorage; //&& areaStateMachine.CurrentState != initialAreaState;
             if (isActive != wasActive)
             {
                 TransfererConditionChangedEvent.Invoke();

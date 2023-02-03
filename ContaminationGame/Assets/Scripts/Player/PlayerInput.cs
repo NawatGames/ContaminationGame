@@ -7,6 +7,7 @@ public class PlayerInput : MonoBehaviour
 {
     public UnityEvent <Vector3> directionChangedEvent;
     public UnityEvent evolutionRequestEvent;
+    public UnityEvent CollectNucleotidesRequestEvent;
 
     void Update()
     {
@@ -39,6 +40,11 @@ public class PlayerInput : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.B))
         {
             evolutionRequestEvent.Invoke();
+        }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            CollectNucleotidesRequestEvent.Invoke();
         }
     }
 }

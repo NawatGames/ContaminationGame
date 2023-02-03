@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 namespace StateMachine2
 {
     public class AreaStateMachine : MonoBehaviour
     {
         [field: SerializeField] public AreaState CurrentState { get; private set; }
+        public UnityEvent ChangedStateEvent;
         void Start()
         {
             CurrentState.EnterState(this);
@@ -24,11 +26,12 @@ namespace StateMachine2
             }
             CurrentState = state;
             state.EnterState(this);
+            ChangedStateEvent.Invoke();
         }
 
         public void SwitchToNextState()
         {
-            SwitchState(CurrentState.nextState); 
+            SwitchState(CurrentState.nextState);
         }
     }
 }
