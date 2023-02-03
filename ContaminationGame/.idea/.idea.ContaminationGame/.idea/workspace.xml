@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PFB_BaseTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PFB_BaseTile.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EvolutionSystem/EvolutionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EvolutionSystem/EvolutionManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid/SelectedTerrainDataUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grid/SelectedTerrainDataUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/NucleotideTileStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/NucleotideTileStorage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/NucleotidesCostHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/NucleotidesCostHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/TileNucleotidesTransferer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/TileNucleotidesTransferer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/VerifierStorageCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/VerifierStorageCondition.cs" afterDir="false" />
