@@ -1431,6 +1431,7 @@ GameObject:
   - component: {fileID: -2658911758533267233}
   - component: {fileID: -7160150133252182418}
   - component: {fileID: 6420125566366953602}
+  - component: {fileID: 8289194400407312773}
   m_Layer: 0
   m_Name: PFB_BaseTile
   m_TagString: Untagged
@@ -1604,6 +1605,24 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &8289194400407312773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8021865037048014684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eabb52051a7241568fda706227b385b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastArea: {fileID: 2196118106296097928}
+  areaStateMachine: {fileID: 6420125566366953602}
+  terrainData: {fileID: 718024101394153640}
+  CollectNucleotidesAutomaticallyEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &9077659784217020325
 GameObject:
   m_ObjectHideFlags: 0

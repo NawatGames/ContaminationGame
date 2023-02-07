@@ -279,6 +279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   terrainSelectionManager: {fileID: 1366579876}
   playerInput: {fileID: 881137992}
+  collectNucleotidesOnLastAreaHandler: {fileID: 8289194400407312773, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
   SuccessfulNucleotidesTransferEvent:
     m_PersistentCalls:
       m_Calls: []
