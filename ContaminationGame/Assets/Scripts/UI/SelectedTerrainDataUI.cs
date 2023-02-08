@@ -34,7 +34,7 @@ public class SelectedTerrainDataUI : MonoBehaviour
         }
         else
         {
-            nucleotidesText.text = $"{terrainSelectionManager.TerrainData.Nucleotides}";
+            nucleotidesText.text = $"{terrainSelectionManager.TerrainData.TerrainCost.Nucleotides}";
             var netFee = terrainSelectionManager.TerrainData.GetComponentInChildren<NucleotidesGenerator>().NetFee;
             netFeeText.text = $"{netFee}";
         }

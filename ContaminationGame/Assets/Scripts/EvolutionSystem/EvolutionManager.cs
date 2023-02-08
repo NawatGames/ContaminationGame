@@ -21,7 +21,13 @@ namespace EvolutionSystem
                 FailedEvolutionEvent.Invoke();
                 return;
             }
-            var value = terrainData.Nucleotides;
+
+            if (!terrainData.VerifierStorageCondition.IsActive)
+            {
+                FailedEvolutionEvent.Invoke();
+                return;
+            }
+            var value = terrainData.TerrainCost.Nucleotides;
             if (playerInfo.PlayerNucleotides >= value)
             {
                 var areaStateMachine = terrainData.GetComponentInChildren<AreaStateMachine>();

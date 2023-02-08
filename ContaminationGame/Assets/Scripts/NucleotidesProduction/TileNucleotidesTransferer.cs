@@ -7,15 +7,14 @@ namespace NucleotidesProduction
     /// </summary>
     public class TileNucleotidesTransferer : MonoBehaviour
     {
-        //todo: codigo de clicar no botao para coletar
         //todo: codigo de autocoletar
         [SerializeField] private NucleotideTileStorage nucleotidesTileStorage;
-        [SerializeField] private PlayerInfo playerInfo;
-        
+
+
         public void TransferNucleotides()
         {
             var currentStorage = nucleotidesTileStorage.CurrentStorage;
-            playerInfo.AddPlayerNucleotides(currentStorage);
+            PlayerInfo.instance.AddPlayerNucleotides(currentStorage);
             nucleotidesTileStorage.RemoveFromCurrentStorage(currentStorage);
         }
     }

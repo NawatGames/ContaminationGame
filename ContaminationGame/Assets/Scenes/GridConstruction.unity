@@ -305,6 +305,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167158360}
   m_CullTransparentMesh: 1
+--- !u!1 &255329250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 255329252}
+  - component: {fileID: 255329251}
+  m_Layer: 0
+  m_Name: Collector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &255329251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255329250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b3047c7bf80444990201066a0f2ec76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainSelectionManager: {fileID: 1366579876}
+  playerInput: {fileID: 881137992}
+  collectNucleotidesOnLastAreaHandler: {fileID: 8289194400407312773, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+  SuccessfulNucleotidesTransferEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  FailedNucleotidesTransferEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &255329252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255329250}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.5667577, y: 0.094786495, z: -1.0631341}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &400912513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,6 +1238,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   evolutionRequestEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  CollectNucleotidesRequestEvent:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &1024863767

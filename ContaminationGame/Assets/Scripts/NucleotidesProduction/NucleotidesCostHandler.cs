@@ -21,7 +21,7 @@ namespace NucleotidesProduction
 
         private void OnEnterState()
         {
-            terrainData.Nucleotides = nucleotidesCost;
+            terrainData.TerrainCost.Nucleotides = nucleotidesCost;
         }
     }
 }
