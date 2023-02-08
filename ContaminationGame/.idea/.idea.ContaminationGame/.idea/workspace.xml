@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56984d7-92ea-4887-ab1b-9933affbd500" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TerrainData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TerrainData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/SelectedTerrainDataUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/SelectedTerrainDataUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cena Inicial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cena Inicial.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScenesTransitions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScenesTransitions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/c4/2d0d2e51/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NucleotidesProduction/TileNucleotidesTransferer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quit.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -119,7 +122,7 @@
       <workItem from="1675815033370" duration="1018000" />
       <workItem from="1675881155317" duration="429000" />
       <workItem from="1675882066079" duration="4980000" />
-      <workItem from="1675891333230" duration="311000" />
+      <workItem from="1675891333230" duration="1612000" />
     </task>
     <servers />
   </component>
