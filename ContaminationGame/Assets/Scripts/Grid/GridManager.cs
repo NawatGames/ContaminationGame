@@ -63,7 +63,7 @@ public class GridManager : MonoBehaviour
         // float gridW = cols * tilesize;
         // float gridH = rows * tilesize;
         // transform.position = new Vector2(-gridW / 2 + tilesize / 2, gridH / 2 - tilesize / 2);
-        _cam.transform.position = new Vector3((float)rows / 2 - 0.5f, (float)cols / 2 - 0.5f, -10);
+        //_cam.transform.position = new Vector3((float)rows / 2 - 0.5f, (float)cols / 2 - 0.5f, -10);
     }
 
 }

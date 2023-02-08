@@ -12,6 +12,8 @@ public class TerrainData : MonoBehaviour
     [field: SerializeField] public VerifierStorageCondition VerifierStorageCondition { get; private set; }
     [field: SerializeField] public TileNucleotidesTransferer TileNucleotidesTransferer { get; private set; }
     
+    [field: SerializeField] public NucleotidesGenerator NucleotidesGenerator { get; private set; }
+
 }
 
 

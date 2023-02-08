@@ -27,7 +27,7 @@ public class SelectedTerrainDataUI : MonoBehaviour
 
     public void RefreshPlayerInfoUI()
     {
-        if (terrainSelectionManager.TerrainData == null)
+        if (terrainSelectionManager.TerrainData is null)
         {
             nucleotidesText.text = $"Nucletideos: ERRO";
             netFeeText.text = $"Transmissao: ERRO";
@@ -35,7 +35,7 @@ public class SelectedTerrainDataUI : MonoBehaviour
         else
         {
             nucleotidesText.text = $"{terrainSelectionManager.TerrainData.TerrainCost.Nucleotides}";
-            var netFee = terrainSelectionManager.TerrainData.GetComponentInChildren<NucleotidesGenerator>().NetFee;
+            var netFee = terrainSelectionManager.TerrainData.NucleotidesGenerator.NetFee;
             netFeeText.text = $"{netFee}";
         }
     }
