@@ -1,11 +1,12 @@
 ﻿using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerInfoUI : MonoBehaviour
 {
     
-    [SerializeField] private Text nucleotidesText; 
+    [SerializeField] private TMP_Text nucleotidesText; 
     [SerializeField] private PlayerInfo playerInfo;
 
     private void OnEnable()

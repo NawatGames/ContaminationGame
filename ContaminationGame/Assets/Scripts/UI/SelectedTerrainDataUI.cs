@@ -1,13 +1,20 @@
-﻿using NucleotidesProduction;
+﻿using System;
+using NucleotidesProduction;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class SelectedTerrainDataUI : MonoBehaviour
 {
-    [SerializeField] private Text nucleotidesText;
-    [SerializeField] private Text netFeeText;
+    [SerializeField] private TMP_Text nucleotidesText;
+    [SerializeField] private TMP_Text netFeeText;
     [SerializeField] private TerrainSelectionManager terrainSelectionManager;
-    
+
+    private void Update()
+    {
+        RefreshPlayerInfoUI();
+    }
+
     private void OnEnable()
     {
         terrainSelectionManager.SelectionChangedEvent.AddListener(RefreshPlayerInfoUI);
