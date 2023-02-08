@@ -466,6 +466,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   nextState: {fileID: 3273237330642885094}
+  areaStateName: "Saud\xE1vel"
 --- !u!114 &8174682036965172575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -883,6 +884,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   nextState: {fileID: 369795326243810225}
+  areaStateName: Contaminado
 --- !u!114 &3988044572301549638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1135,6 +1137,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   nextState: {fileID: 0}
+  areaStateName: "Ber\xE7o Viral"
 --- !u!114 &1456429491174495070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1319,6 +1322,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   nextState: {fileID: 2196118106296097928}
+  areaStateName: Dominado
 --- !u!114 &2981591428957830014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1539,6 +1543,7 @@ MonoBehaviour:
   <VerifierStorageCondition>k__BackingField: {fileID: 6386935967712307036}
   <TileNucleotidesTransferer>k__BackingField: {fileID: 2697115679084232459}
   <NucleotidesGenerator>k__BackingField: {fileID: 6633876189588694219}
+  <AreaStateMachine>k__BackingField: {fileID: 6420125566366953602}
 --- !u!114 &3870139550441545450
 MonoBehaviour:
   m_ObjectHideFlags: 0

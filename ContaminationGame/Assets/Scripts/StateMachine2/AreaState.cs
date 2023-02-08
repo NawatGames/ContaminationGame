@@ -10,6 +10,7 @@ namespace StateMachine2
         public UnityEvent UpdateStateEvent;
         public UnityEvent LeaveStateEvent;
         public AreaState nextState;
+        public string areaStateName;
         
         
         public void EnterState(AreaStateMachine area)
