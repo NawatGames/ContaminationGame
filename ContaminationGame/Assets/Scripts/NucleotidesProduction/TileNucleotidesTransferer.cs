@@ -7,7 +7,6 @@ namespace NucleotidesProduction
     /// </summary>
     public class TileNucleotidesTransferer : MonoBehaviour
     {
-        //todo: codigo de autocoletar
         [SerializeField] private NucleotideTileStorage nucleotidesTileStorage;
 
 

@@ -20,10 +20,7 @@ namespace NucleotidesProduction
         {
             var lastFrameStorage = currentStorage;
             currentStorage = Mathf.Clamp(value, 0, maxStorage);
-            if (currentStorage != lastFrameStorage)
-            {
-                currentStorageChangedEvent.Invoke();
-            }
+            currentStorageChangedEvent.Invoke();
         }
         public void AddToCurrentStorage(int value)
         {

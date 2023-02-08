@@ -30,12 +30,19 @@ namespace DefaultNamespace
 
         private void OnTransferConditionChanged()
         {
+          
             if (terrainData is null) return;
 
             if (terrainData.VerifierStorageCondition.IsActive)
             {
-                CollectNucleotidesAutomaticallyEvent.Invoke();
+               
+                if (lastArea == areaStateMachine.CurrentState)
+                {
+                    
+                    CollectNucleotidesAutomaticallyEvent.Invoke();
+                }
             }
+            
         }
     }
 }

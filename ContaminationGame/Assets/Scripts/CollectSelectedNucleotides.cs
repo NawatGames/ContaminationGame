@@ -6,22 +6,21 @@ using UnityEngine.Events;
 
 namespace DefaultNamespace
 {
-    public class CollectNucleotides : MonoBehaviour
+    public class CollectSelectedNucleotides : MonoBehaviour
     {
         [SerializeField] private TerrainSelectionManager terrainSelectionManager;
         [SerializeField] private PlayerInput playerInput;
-        [SerializeField] private CollectNucleotidesOnLastAreaHandler collectNucleotidesOnLastAreaHandler;
-        private TerrainData terrainData;
+        private TerrainData currentTerrainData;
         public UnityEvent SuccessfulNucleotidesTransferEvent;
         public UnityEvent FailedNucleotidesTransferEvent;
 
         private void OnCollectNucleotidesRequest()
         {
-            if (terrainData is null) return; // GuardClause
-            
-            if (terrainData.VerifierStorageCondition.IsActive)
+            if (currentTerrainData is null) return; // GuardClause
+
+            if (currentTerrainData.VerifierStorageCondition.IsActive)
             {
-                terrainData.TileNucleotidesTransferer.TransferNucleotides();
+                currentTerrainData.TileNucleotidesTransferer.TransferNucleotides();
                 SuccessfulNucleotidesTransferEvent.Invoke();
             }
             else
@@ -30,29 +29,26 @@ namespace DefaultNamespace
             }
         }
         
+        
         private void OnEnable()
         {
             terrainSelectionManager.SelectionChangedEvent.AddListener(OnSelectionChanged);
             playerInput.CollectNucleotidesRequestEvent.AddListener(OnCollectNucleotidesRequest);
-            collectNucleotidesOnLastAreaHandler.CollectNucleotidesAutomaticallyEvent.AddListener(OnCollectNucleotidesAutomatically);
-            
         }
 
         private void OnDisable()
         {
             terrainSelectionManager.SelectionChangedEvent.RemoveListener(OnSelectionChanged);
             playerInput.CollectNucleotidesRequestEvent.RemoveListener(OnCollectNucleotidesRequest);
-            collectNucleotidesOnLastAreaHandler.CollectNucleotidesAutomaticallyEvent.RemoveListener(OnCollectNucleotidesAutomatically);
         }
 
         private void OnSelectionChanged()
         {
-            terrainData = terrainSelectionManager.TerrainData;
+            currentTerrainData = terrainSelectionManager.TerrainData;
         }
-        private void OnCollectNucleotidesAutomatically()
-        {
-            OnCollectNucleotidesRequest();
-        }
+        
         
     }
 }
+
+
