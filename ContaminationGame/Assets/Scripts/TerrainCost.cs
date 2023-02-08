@@ -1,9 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
-
-namespace DefaultNamespace
-{
-    public class TerrainCost : MonoBehaviour
+public class TerrainCost : MonoBehaviour
     {
         [SerializeField] private int nucleotidesCost;
         public UnityEvent TerrainDataChangedEvent;
@@ -18,4 +15,3 @@ namespace DefaultNamespace
             }
         }
     }
-}
