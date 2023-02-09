@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c56984d7-92ea-4887-ab1b-9933affbd500" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cena do Jogo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cena do Jogo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Buttons/ResumeBtn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Buttons/ResumeBtn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Buttons/Quit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Buttons/Quit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../OneDrive - Pessoal/OneDrive/Área de Trabalho/ContaminationGame.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\OneDrive - Pessoal\OneDrive\Área de Trabalho" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;D:\Repositorios Git\Infectio\ContaminationGame&quot; -debugCodeOptimization" />
@@ -124,7 +133,8 @@
       <workItem from="1675881155317" duration="429000" />
       <workItem from="1675882066079" duration="4980000" />
       <workItem from="1675891333230" duration="1819000" />
-      <workItem from="1675921593101" duration="9708000" />
+      <workItem from="1675921593101" duration="10300000" />
+      <workItem from="1675937743803" duration="652000" />
     </task>
     <servers />
   </component>
