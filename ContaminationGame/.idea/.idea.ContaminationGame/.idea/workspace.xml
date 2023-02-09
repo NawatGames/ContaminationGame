@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c56984d7-92ea-4887-ab1b-9933affbd500" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cena Inicial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cena Inicial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScenesTransitions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScenesTransitions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="c56984d7-92ea-4887-ab1b-9933affbd500" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +117,7 @@
       <workItem from="1675815033370" duration="1018000" />
       <workItem from="1675881155317" duration="429000" />
       <workItem from="1675882066079" duration="4980000" />
-      <workItem from="1675891333230" duration="1612000" />
+      <workItem from="1675891333230" duration="1819000" />
     </task>
     <servers />
   </component>
