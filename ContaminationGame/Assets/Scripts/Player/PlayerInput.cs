@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 public class PlayerInput : MonoBehaviour
 {
     public UnityEvent <Vector3> directionChangedEvent;
-    public UnityEvent evolutionRequestEvent;
+    [FormerlySerializedAs("evolutionRequestEvent")] public UnityEvent EvolutionRequestEvent;
     public UnityEvent CollectNucleotidesRequestEvent;
+    [FormerlySerializedAs("OpenClosePauseMenu")] [FormerlySerializedAs("EscapeKeyDownEvent")] public UnityEvent OpenClosePauseMenuEvent;
 
     void Update()
     {
@@ -39,12 +41,17 @@ public class PlayerInput : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.B))
         {
-            evolutionRequestEvent.Invoke();
+            EvolutionRequestEvent.Invoke();
         }
 
         if (Input.GetKeyDown(KeyCode.C))
         {
             CollectNucleotidesRequestEvent.Invoke();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            OpenClosePauseMenuEvent.Invoke();
         }
     }
 }

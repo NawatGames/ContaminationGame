@@ -12,14 +12,14 @@ namespace EvolutionSystem
 
         private void OnEnable()
         {
-            playerInput.evolutionRequestEvent.AddListener(OnEvolutionRequest);
+            playerInput.EvolutionRequestEvent.AddListener(OnEvolutionRequest);
             terrainSelectionManager.SelectionChangedEvent.AddListener(OnSelectionChanged);
         }
 
 
         private void OnDisable()
         {
-            playerInput.evolutionRequestEvent.RemoveListener(OnEvolutionRequest);
+            playerInput.EvolutionRequestEvent.RemoveListener(OnEvolutionRequest);
             terrainSelectionManager.SelectionChangedEvent.RemoveListener(OnSelectionChanged);
         }
 
