@@ -1,16 +1,17 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Buttons
 {
     public class ResumeBtn : MonoBehaviour
     {
-        [SerializeField] private Transform pauseMenu;
+        [FormerlySerializedAs("pauseMenu")] [SerializeField] private Transform menu;
 
         private IEnumerator WaitCoroutine()
         {
             yield return new WaitForSeconds(0.5f);
-            pauseMenu.gameObject.SetActive(false);
+            menu.gameObject.SetActive(false);
         }
         
         public void Resume()
