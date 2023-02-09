@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ScenesTransitions : MonoBehaviour
+public class StartBtnTransition : MonoBehaviour
 {
     [SerializeField] private string GameScene;
 
