@@ -31,6 +31,10 @@ PrefabInstance:
       propertyPath: nucleotides
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 787101740002074405, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: nucleotidesCost
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 973406312587697456, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -83,14 +87,42 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 8752e7fcc2d811d43bffb47319be9e96, type: 2}
+    - target: {fileID: 3617712289634717871, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: maxStorage
+      value: 70
+      objectReference: {fileID: 0}
     - target: {fileID: 4648656036828049639, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680140984517986526, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: netFee
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5009796160445035389, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 38e274f554fd3554e85496218fbbdef4, type: 2}
+    - target: {fileID: 5123854160119334067, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: maxStorage
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5469895118670541042, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: nucleotidesCost
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865901187520255428, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: maxStorage
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086517488037565128, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: netFee
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383961745772170685, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: nucleotidesCost
+      value: 280
+      objectReference: {fileID: 0}
     - target: {fileID: 6665599294689361895, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -130,6 +162,10 @@ PrefabInstance:
     - target: {fileID: 8021865037048014684, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
       propertyPath: m_TagString
       value: Village
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525055792842065634, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: netFee
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8793769753541882453, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
       propertyPath: m_Controller

@@ -7,9 +7,15 @@ namespace Buttons
     {
         [SerializeField] private Transform pauseMenu;
 
+        private IEnumerator WaitCoroutine()
+        {
+            yield return new WaitForSeconds(0.5f);
+            pauseMenu.gameObject.SetActive(false);
+        }
+        
         public void Resume()
         {
-            pauseMenu.gameObject.SetActive(false);
+            StartCoroutine(WaitCoroutine());
             Time.timeScale = 1;
         }
     }

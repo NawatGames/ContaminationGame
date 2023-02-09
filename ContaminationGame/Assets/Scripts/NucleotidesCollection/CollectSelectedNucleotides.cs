@@ -1,6 +1,7 @@
 ﻿using System;
 using NucleotidesProduction;
 using StateMachine2;
+using Terrain;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -10,10 +11,11 @@ namespace DefaultNamespace
     {
         [SerializeField] private TerrainSelectionManager terrainSelectionManager;
         [SerializeField] private PlayerInput playerInput;
+        [SerializeField] private GameObject terrain;
         private TerrainData currentTerrainData;
         public UnityEvent SuccessfulNucleotidesTransferEvent;
         public UnityEvent FailedNucleotidesTransferEvent;
-
+        
         private void OnCollectNucleotidesRequest()
         {
             if (currentTerrainData is null) return; // GuardClause

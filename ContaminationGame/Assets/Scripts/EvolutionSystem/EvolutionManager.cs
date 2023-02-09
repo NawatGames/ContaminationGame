@@ -3,14 +3,15 @@ using EvolutionSystem;
 using StateMachine2;
 using UnityEngine;
 using UnityEngine.Events;
+ using UnityEngine.Serialization;
 
-namespace EvolutionSystem
+ namespace EvolutionSystem
 {
     public class EvolutionManager : MonoBehaviour
     {
         [SerializeField] private PlayerInfo playerInfo;
         [SerializeField] private TerrainSelectionManager terrainSelectionManager;
-        public UnityEvent SuccessfullEvolutionEvent;
+        [FormerlySerializedAs("SuccessfullEvolutionEvent")] public UnityEvent SuccessfulEvolutionEvent;
         public UnityEvent FailedEvolutionEvent;
 
 
@@ -39,7 +40,7 @@ namespace EvolutionSystem
                 {
                     areaStateMachine.SwitchToNextState();
                     playerInfo.RemovePlayerNucleotides(value);
-                    SuccessfullEvolutionEvent.Invoke();
+                    SuccessfulEvolutionEvent.Invoke();
                 }
             }
             else

@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56984d7-92ea-4887-ab1b-9933affbd500" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Buttons/ResumeBtn.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Buttons/ResumeBtn.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/OpenClosePauseMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Terrain/InitialAreaHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Terrain/InitialAreaHandler.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EvolutionSystem/EvolutionRequester.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EvolutionSystem/EvolutionRequester.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PauseMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PauseMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/OpenClosePauseMenu.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PFB_BaseTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PFB_BaseTile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cena Inicial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cena Inicial.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cena do Jogo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cena do Jogo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Buttons/ResumeBtn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Buttons/ResumeBtn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EvolutionSystem/EvolutionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EvolutionSystem/EvolutionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NucleotidesCollection/CollectSelectedNucleotides.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NucleotidesCollection/CollectSelectedNucleotides.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Terrain/TerrainData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Terrain/TerrainData.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/c4/2d0d2e51/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/OptionsBtnInMainScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Buttons/Quit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NucleotidesCollection/TileNucleotidesTransferer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -127,7 +130,7 @@
       <workItem from="1675881155317" duration="429000" />
       <workItem from="1675882066079" duration="4980000" />
       <workItem from="1675891333230" duration="1819000" />
-      <workItem from="1675921593101" duration="2519000" />
+      <workItem from="1675921593101" duration="7693000" />
     </task>
     <servers />
   </component>

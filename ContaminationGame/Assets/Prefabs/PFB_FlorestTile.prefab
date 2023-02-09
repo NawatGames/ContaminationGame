@@ -31,6 +31,10 @@ PrefabInstance:
       propertyPath: nucleotides
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 787101740002074405, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: nucleotidesCost
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 973406312587697456, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -87,6 +91,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 1473433cd36a37a4cba084d740810714, type: 2}
+    - target: {fileID: 3617712289634717871, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: maxStorage
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 4648656036828049639, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -95,6 +103,18 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 4ac93668fecd26a42b76b9b097f5ab24, type: 2}
+    - target: {fileID: 5123854160119334067, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: maxStorage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5469895118670541042, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: nucleotidesCost
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383961745772170685, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
+      propertyPath: nucleotidesCost
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 6665599294689361895, guid: 241bc0e73b7d96d4bbd2927182734aac, type: 3}
       propertyPath: m_Sprite
       value: 
