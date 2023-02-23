@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c56984d7-92ea-4887-ab1b-9933affbd500" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ContaminationGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Buttons/Quit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Buttons/Quit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +132,7 @@
       <workItem from="1675891333230" duration="1819000" />
       <workItem from="1675921593101" duration="10300000" />
       <workItem from="1675937743803" duration="652000" />
+      <workItem from="1675997089821" duration="307000" />
     </task>
     <servers />
   </component>
